@@ -1,0 +1,32 @@
+* {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+}
+body {
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+ul {
+    display: inline;
+    padding-left: 40px;
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+    /*transform:  translate(0, 5px);*/
+    font-size: 13px;
+    font-weight: lighter;
+}
+.top {
+    position: fixed;
+    width: 100%;
+}
+#logo {
+    position: absolute;
+    left: 46%;
+    margin-top: 10px;
+}
+#video1 {
+    position: absolute;
+    z-index: -1;
+}
